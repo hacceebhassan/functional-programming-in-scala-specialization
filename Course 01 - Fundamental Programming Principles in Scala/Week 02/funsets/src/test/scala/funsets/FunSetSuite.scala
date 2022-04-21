@@ -36,6 +36,12 @@ class FunSetSuite extends munit.FunSuite:
     val s1 = singletonSet(1)
     val s2 = singletonSet(2)
     val s3 = singletonSet(3)
+    val s4 = singletonSet(1)
+    val s5 = singletonSet(3)
+    val s6 = singletonSet(4)
+    val s7 = singletonSet(5)
+    val s8 = singletonSet(7)
+    val s9 = singletonSet(1000)
 
   /**
    * This test is currently disabled (by using @Ignore) because the method
@@ -44,7 +50,7 @@ class FunSetSuite extends munit.FunSuite:
    * Once you finish your implementation of "singletonSet", remove the
    * .ignore annotation.
    */
-  test("singleton set one contains one".ignore) {
+  test("singletonSet(1) contains 1") {
 
     /**
      * We create a new instance of the "TestSets" trait, this gives us access
